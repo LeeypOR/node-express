@@ -1,6 +1,5 @@
 const connections = require("../util/database.js");
 
-
 //获取人员
 getUser = async (req, res)=>{
     let sql = "select * from test1";
